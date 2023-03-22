@@ -1,0 +1,75 @@
+body {
+    background-color: #252525;
+    color: gold;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 0 64px;
+    margin: 0;
+}
+
+.stopwatch {
+    margin-top: 8%;
+    display: grid;
+    justify-items: center;
+    grid-row-gap: 25px;
+    width: 100%;
+    padding-top: 25px;
+}
+
+.time {
+    font-family:sans-serif;
+    font-weight: 350;
+    font-size: 50px;
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 6px solid;
+    width: 280px;
+    height: 280px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    font-family: sans-serif;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-around;
+    width: 170px;
+}
+
+button {
+    background: transparent;
+    padding: 0;
+    border: none;
+    margin: 0;
+    font-size: 55px;
+    color: gold;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+button:active {
+    transform: scale(.92);
+}
+
+button:hover {
+    color: white;
+}
+
+.play {
+    display: block;
+}
+
+.pause {
+    display: none;
+}
